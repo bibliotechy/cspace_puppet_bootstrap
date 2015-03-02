@@ -8,7 +8,7 @@
 # This script must be run as 'root' (e.g. via 'sudo')
 
 # Uncomment the following line for verbose output, useful when debugging
-# set -x
+set -x
 
 SCRIPT_NAME=`basename $0` # Note: script name may be misleading if script is symlinked
 if [ "$EUID" -ne "0" ]; then
